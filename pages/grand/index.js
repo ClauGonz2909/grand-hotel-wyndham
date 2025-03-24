@@ -6,6 +6,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Beneficios from "@/components/Beneficios";
 import Habitaciones from "@/components/Habitaciones";
+import Meeting from "@/components/Meeting";
 
 export async function getStaticProps() {
   // Obtener el JSON con los datos del hotel
@@ -40,6 +41,7 @@ export default function Home({ hotel }) {
       <Beneficios />
       <Habitaciones />
       <RestBar />
+      <Meeting />
     </main>
   );
 }
