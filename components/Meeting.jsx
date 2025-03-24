@@ -3,9 +3,8 @@ import Image from "next/image";
 
 const Meeting = () => {
   return (
-    <section className="bg-white py-10">
-      <div className="container mx-auto">
-        <div className="flex flex-col md:flex-row gap-6">
+    <section className="bg-white p-10 min-h-screen items-center justify-center flex flex-col">
+      <div className="container mx-auto flex flex-col md:flex-row gap-6">
           {/* CARD 1 */}
           <div className="container max-w-md grid bg-white rounded-lg shadow-md overflow-hidden p-0">
             <div className="relative w-full h-60">
@@ -80,7 +79,7 @@ const Meeting = () => {
               </button>
             </div>
           </div>
-        </div>
+        
       </div>
     </section>
   );

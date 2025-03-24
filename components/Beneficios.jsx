@@ -3,11 +3,11 @@ import { FaHotel, FaConciergeBell, FaUtensils, FaMapMarkerAlt, FaMobileAlt, FaSp
 
 const Beneficios = () => {
   return (
-    <section className="bg-[#F8F5F0] py-16 flex flex-col items-center">
+    <section className="bg-white p-10 min-h-screen items-center justify-center flex flex-col">
       {/* Contenedor del título */}
       <div className="container mx-auto text-center mb-12">
         <h5 className="text-xs text-gray-500 tracking-wide uppercase">Disfruta de todos</h5>
-        <h2 className="text-3xl font-semibold text-black-grand">Nuestros Beneficios</h2>
+        <h2 className="text-3xl font-semibold text-olive-grand">Nuestros Beneficios</h2>
       </div>
 
       {/* Contenedor principal que abarca toda la sección */}

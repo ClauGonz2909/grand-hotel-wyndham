@@ -2,7 +2,7 @@ import React from 'react';
 
 const RestBar = () => {
   return (
-    <section className="bg-white p-6 flex flex-col items-center justify-center">
+    <section className="bg-white p-10 min-h-screen flex flex-col items-center justify-center">
       
       {/* Cabecera principal con imagen de fondo a pantalla completa */}
       <div

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Ofertas = () => {
   return (
-    <section className="container mx-auto py-10">
+    <section className="container bg-white p-10 min-h-screen mx-auto ">
      <div className="container flex flex-col md:flex-row gap-8">
 
         {/* Texto vertical "Ofertas" centrado */}

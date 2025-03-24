@@ -2,7 +2,7 @@ import React from 'react'
 
 const Habitaciones = () => {
   return (
-    <section className="bg-white p-6 min-h-screen items-center justify-center flex flex-col">
+    <section className="bg-white p-10 min-h-screen items-center justify-center flex flex-col">
         
   
     <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10">

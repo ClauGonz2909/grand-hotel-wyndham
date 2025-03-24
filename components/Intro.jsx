@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <section className="bg-white p-6 min-h-screen items-center justify-center flex flex-col">
-      <h3 className="pb-6 text-center font-semibold text-title-section">
+    <section className="bg-white p-10 min-h-screen  items-center justify-center flex flex-col">
+      <h3 className="text-xs text-gray-500 tracking-wider uppercase ml-[39%]">
         Experimenta la exclusividad dentro de la ciudad aeropuerto
       </h3>
 
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10 ">
         {/* Contenedor de imágenes */}
         <div className="relative flex-1 max-w-md lg:max-w-lg">
           <div className="relative h-[400px] mx-auto">
@@ -37,7 +37,7 @@ const Intro = () => {
         </div>
 
         {/* Contenido del hotel */}
-        <div className="flex-1 max-w-lg p-6 text-black-grand">
+        <div className="flex-1 max-w-lg p-6 text-black-grand basis-1/4">
           <div>
           <h1 className="text-4xl md:text-3xl font-serif text-olive-grand leading-snug">
             Wyndham Grand Costa del Sol Lima City
