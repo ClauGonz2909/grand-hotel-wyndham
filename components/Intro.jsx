@@ -39,7 +39,10 @@ const Intro = () => {
         {/* Contenido del hotel */}
         <div className="flex-1 max-w-lg p-6 text-black-grand">
           <div>
-            <h5 className="font-bold">Wyndham Grand Costa del Sol Lima City</h5>
+          <h1 className="text-4xl md:text-3xl font-serif text-olive-grand leading-snug">
+            Wyndham Grand Costa del Sol Lima City
+          </h1>
+
             <p className="text-xs">Estancia premium y servicio de clase mundial</p>
           </div>
           <div className="flex items-center gap-2 my-4">

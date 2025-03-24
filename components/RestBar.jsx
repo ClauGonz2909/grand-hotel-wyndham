@@ -21,7 +21,7 @@ const RestBar = () => {
           <h2 className="text-white text-3xl md:text-5xl font-light tracking-wide backdrop-blur-sm">
             RESTAURANTES Y BARES
           </h2>
-          <p className="text-sm md:text-white bg-olive-grand px-4 py-2 mt-2 rounded-md inline-block shadow-lg">
+          <p className="text-sm font-light tracking-wide md:text-white bg-olive-grand px-4 py-2 mt-2 rounded-md inline-block shadow-lg">
             Wyndham Grand Costa del Sol Lima Airport
           </p>
         </div>
