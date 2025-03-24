@@ -10,7 +10,7 @@ const Habitaciones = () => {
       {/* Contenedor de imágenes */}
       <div className="flex-1 max-w-md lg:max-w-lg">
         <div> 
-            <h6 className="suptitle">CONOCE NUESTRA HABITACIONES</h6>
+            <h6 className="text-xs text-gray-500 tracking-widest uppercase">CONOCE NUESTRA HABITACIONES</h6>
             {/* Título principal */}
             <h3 className="pb-2 font-bold text-title-section">
                 HABITACIONES

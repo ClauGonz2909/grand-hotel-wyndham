@@ -33,7 +33,7 @@ const RestBar = () => {
         {/* Contenedor de texto */}
         <div className="flex-1 max-w-md lg:max-w-lg">
           <div> 
-            <h6 className="text-sm text-gray-500 uppercase">Servicios de primera clase</h6>
+          <h6 className="text-xs text-gray-500 tracking-widest uppercase">SERVICIOS DE PRIMERA CLASE</h6>
             <h3 className="pb-2 font-bold text-title-section">COMER Y BEBER</h3>
             <div className="divider-line"></div>
           </div>

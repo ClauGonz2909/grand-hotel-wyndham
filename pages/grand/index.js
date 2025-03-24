@@ -8,6 +8,7 @@ import Beneficios from "@/components/Beneficios";
 import Habitaciones from "@/components/Habitaciones";
 import Meeting from "@/components/Meeting";
 import Ofertas from "@/components/Ofertas";
+import Gallery from "@/components/Gallery";
 
 
 export async function getStaticProps() {
@@ -43,8 +44,10 @@ export default function Home({ hotel }) {
       <Beneficios />
       <Habitaciones />
       <RestBar />
-      <Meeting />
       <Ofertas  />
+      <Gallery  />
+      <Meeting />
+
     </main>
   );
 }
